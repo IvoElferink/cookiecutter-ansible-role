@@ -12,7 +12,7 @@ lint: |
   flake8
 platforms:
   - name: fedora35
-    image: mrlesmithjr/fedora:35
+    image: ivoelferink/fedora:35
     privileged: true
     command: /usr/sbin/init
     # tmpfs:

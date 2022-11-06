@@ -11,8 +11,8 @@ lint: |
   ansible-lint
   flake8
 platforms:
-  - name: debian9
-    image: ivoelferink/debian:9
+  - name: ubuntu2204
+    image: ivoelferink/ubuntu:22.04
     privileged: true
     command: /lib/systemd/systemd
     # tmpfs:
