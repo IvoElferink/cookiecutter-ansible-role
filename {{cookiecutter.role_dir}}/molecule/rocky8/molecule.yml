@@ -12,7 +12,7 @@ lint: |
   flake8
 platforms:
   - name: rocky8
-    image: mrlesmithjr/rocky:8
+    image: ivoelferink/rocky:8
     privileged: true
     command: /usr/sbin/init
     # tmpfs:

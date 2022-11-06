@@ -11,10 +11,10 @@ lint: |
   ansible-lint
   flake8
 platforms:
-  - name: debian9
-    image: ivoelferink/debian:9
+  - name: fedora36
+    image: ivoelferink/fedora:36
     privileged: true
-    command: /lib/systemd/systemd
+    command: /usr/sbin/init
     # tmpfs:
     #   - /run
     #   - /tmp
